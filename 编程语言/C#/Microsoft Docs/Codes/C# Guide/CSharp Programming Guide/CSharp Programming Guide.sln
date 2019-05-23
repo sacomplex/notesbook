@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Hello World Your First Program", "01 Hello World Your First Program\01 Hello World Your First Program.csproj", "{DB3FC60B-7806-4F94-8394-88E251D240D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 General Structure of a CSharp Program", "02 General Structure of a CSharp Program\02 General Structure of a CSharp Program.csproj", "{2308266B-EA15-46FE-8DBD-427ED4378FA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Command-Line Arguments", "05 Command-Line Arguments\05 Command-Line Arguments.csproj", "{7E654505-F8AE-4041-91AD-A0584E67F20B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 How to Display Command Line Arguments", "06 How to Display Command Line Arguments\06 How to Display Command Line Arguments.csproj", "{D56D12B4-0485-48FA-A7AC-457830069025}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 How to Access Command-Line Arguments Using foreach", "07 How to Access Command-Line Arguments Using foreach\07 How to Access Command-Line Arguments Using foreach.csproj", "{F60CEC1A-959D-4FA4-A227-BACA85611F4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 Main() return values", "08 Main() return values\08 Main() return values.csproj", "{383896EC-A693-475F-B010-341AA510F47A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB3FC60B-7806-4F94-8394-88E251D240D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB3FC60B-7806-4F94-8394-88E251D240D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB3FC60B-7806-4F94-8394-88E251D240D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB3FC60B-7806-4F94-8394-88E251D240D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2308266B-EA15-46FE-8DBD-427ED4378FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2308266B-EA15-46FE-8DBD-427ED4378FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2308266B-EA15-46FE-8DBD-427ED4378FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2308266B-EA15-46FE-8DBD-427ED4378FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E654505-F8AE-4041-91AD-A0584E67F20B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E654505-F8AE-4041-91AD-A0584E67F20B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E654505-F8AE-4041-91AD-A0584E67F20B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E654505-F8AE-4041-91AD-A0584E67F20B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D56D12B4-0485-48FA-A7AC-457830069025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D56D12B4-0485-48FA-A7AC-457830069025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D56D12B4-0485-48FA-A7AC-457830069025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D56D12B4-0485-48FA-A7AC-457830069025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F60CEC1A-959D-4FA4-A227-BACA85611F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60CEC1A-959D-4FA4-A227-BACA85611F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60CEC1A-959D-4FA4-A227-BACA85611F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60CEC1A-959D-4FA4-A227-BACA85611F4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{383896EC-A693-475F-B010-341AA510F47A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383896EC-A693-475F-B010-341AA510F47A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383896EC-A693-475F-B010-341AA510F47A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383896EC-A693-475F-B010-341AA510F47A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {652CD02E-DBAB-4F39-B2BD-563482D4641C}
+	EndGlobalSection
+EndGlobal

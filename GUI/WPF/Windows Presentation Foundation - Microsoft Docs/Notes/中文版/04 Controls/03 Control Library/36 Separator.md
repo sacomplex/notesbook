@@ -1,0 +1,3 @@
+# [Separator](https://docs.microsoft.com/en-us/dotnet/framework/wpf/controls/separator)
+
+A[Separator](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.separator)控件绘制线条、 水平或垂直，在控件中，项之间如[ListBox](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.listbox)， [Menu](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.menu)，和[ToolBar](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.toolbar)。

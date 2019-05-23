@@ -1,0 +1,3 @@
+## [FlowDocumentPageViewer](https://docs.microsoft.com/en-us/dotnet/framework/wpf/controls/flowdocumentpageviewer)
+
+[FlowDocumentPageViewer](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.flowdocumentpageviewer)控件用于查看[FlowDocument](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.documents.flowdocument)每每个页面上的内容。 与之相反[FlowDocumentScrollViewer](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.flowdocumentscrollviewer)，其中介绍了[FlowDocument](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.documents.flowdocument)滚动查看器中的内容。

@@ -1,0 +1,3 @@
+## [Frame](https://docs.microsoft.com/en-us/dotnet/framework/wpf/controls/frame)
+
+[Frame](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.frame)控件支持在内容中的内容导航。 [Frame](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.frame) 可以通过类似的根元素承载[Window](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.window)， [NavigationWindow](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.navigation.navigationwindow)， [Page](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.page)，[UserControl](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.usercontrol)， [FlowDocument](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.documents.flowdocument)，或作为一个安全岛属于根元素的内容树中。

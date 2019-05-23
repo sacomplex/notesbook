@@ -1,0 +1,12 @@
+## [DatePicker](https://docs.microsoft.com/en-us/dotnet/framework/wpf/controls/datepicker)
+
+[DatePicker](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.datepicker)控件允许用户通过下拉列表中键入文本字段，或选择日期[Calendar](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.calendar)控件。
+
+下图显示[DatePicker](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.datepicker)。
+
+![DatePicker 控件](https://docs.microsoft.com/zh-cn/dotnet/framework/wpf/controls/media/ndp-datepicker.png)
+DatePicker 控件
+
+许多[DatePicker](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.datepicker)控件的属性是用于管理其内置[Calendar](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.calendar)，和函数中的等效属性与相同[Calendar](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.calendar)。 具体而言，[DatePicker.IsTodayHighlighted](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.datepicker.istodayhighlighted)， [DatePicker.FirstDayOfWeek](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.datepicker.firstdayofweek)， [DatePicker.BlackoutDates](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.datepicker.blackoutdates)，[DatePicker.DisplayDateStart](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.datepicker.displaydatestart)， [DatePicker.DisplayDateEnd](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.datepicker.displaydateend)， [DatePicker.DisplayDate](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.datepicker.displaydate)，以及[DatePicker.SelectedDate](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.datepicker.selecteddate)属性函数完全相同其[Calendar](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.calendar)对应项。 有关详细信息，请参阅 [Calendar](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.calendar)。
+
+用户可以直接在设置的文本字段中键入日期[Text](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.datepicker.text)属性。 如果[DatePicker](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.datepicker)无法将输入的字符串转换为有效的日期，[DateValidationError](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.datepicker.datevalidationerror)将引发事件。 默认情况下，这会导致异常，但的事件处理程序[DateValidationError](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.datepicker.datevalidationerror)可以设置[ThrowException](https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.datepickerdatevalidationerroreventargs.throwexception)属性设置为`false`并防止引发异常。

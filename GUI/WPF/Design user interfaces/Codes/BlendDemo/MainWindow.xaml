@@ -1,0 +1,21 @@
+﻿<Window x:Class="BlendDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BlendDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Ellipse Margin="353.262,130.623,340.338,189.777" Stroke="Black">
+            <Ellipse.Fill>
+                <LinearGradientBrush EndPoint="-0.129,0.16" StartPoint="0.607,0.61">
+                    <GradientStop Color="#FF681F1F"/>
+                    <GradientStop Color="#FF563F3F" Offset="0.505"/>
+                    <GradientStop Color="#FF090606" Offset="0.256"/>
+                </LinearGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+
+    </Grid>
+</Window>
